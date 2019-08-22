@@ -1,3 +1,5 @@
+upload `success.svg` and `failure.svg` to the `./build` folder of a bucket in gcloud.
+
 	gcloud functions deploy setBuildBadge       	\
     	--runtime nodejs8                           \
     	--trigger-resource cloud-builds             \
