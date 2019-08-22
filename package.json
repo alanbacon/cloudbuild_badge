@@ -1,0 +1,14 @@
+{
+  "name": "cloudbuild_badge",
+  "version": "1.0.0",
+  "description": "gcloud functions deploy setBuildBadge       \\     --runtime nodejs6                           \\     --trigger-resource cloud-builds             \\     --trigger-event google.pubsub.topic.publish \\",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^3.1.0"
+  }
+}
